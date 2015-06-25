@@ -63,14 +63,14 @@
                 android:layout_marginTop="10dp"
                 android:text="充電量: "
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/shake_data"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="0"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -79,12 +79,12 @@
             <TextView
                 android:id="@+id/shake_more"
                	android:layout_width="0dp"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="安培(A) "
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -102,7 +102,7 @@
                 android:layout_marginTop="20dp"
                 android:text="剩餘時間: "
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/time_data"
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="30"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -119,12 +119,12 @@
             <TextView
                 android:id="@+id/time_more"
                 android:layout_width="0dp"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="秒 "
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
         </LinearLayout>
     </LinearLayout>

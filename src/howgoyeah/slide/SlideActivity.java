@@ -25,7 +25,7 @@ public class SlideActivity extends Activity {
 	TextView textTime, textDis;
 	SoundPool soundPool;
 	int soundId;
-
+  
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -51,14 +51,14 @@ public class SlideActivity extends Activity {
 				returnIntent.putExtra("result_slide", Integer.toString(x));
 				// Log.v("touch_grade1", Integer.toString(touch_number_count));
 				setResult(RESULT_OK, returnIntent);
-
+ 
 				finish();
 			}
 
 			@Override
 			public void onTick(long millisUntilFinished) {
 				// TODO Auto-generated method stub
-				textTime.setText("時間倒數: " + millisUntilFinished / 1000);
+				textTime.setText("����: " + millisUntilFinished / 1000);
 			}
 
 		}.start();
@@ -83,7 +83,7 @@ public class SlideActivity extends Activity {
 			// TODO Auto-generated method stub
 			int x = scrollView.getScrollY();
 			x = x / 5000;
-			textDis.setText("目前分數: " + x);
+			textDis.setText("����: " + x);
 			soundPool.play(soundId, 1.0F, 1.0F, 0, 0, 1.0F);
 			return false;
 		}
